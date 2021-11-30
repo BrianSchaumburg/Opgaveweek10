@@ -1,9 +1,12 @@
 package domain;
 
+import java.time.LocalTime;
+
 public class Controlepunt {
     private double breedteGraad, lengteGraad;
     private String naam;
     private boolean ehbo;
+
     public Controlepunt(String naam, double breedteGraad, double lengteGraad, boolean uitslag) {
         setNaam(naam);
         setBreedteGraad(breedteGraad);
